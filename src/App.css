@@ -1,0 +1,55 @@
+.App {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.box_timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+  box-shadow: 3px 3px 7px #dddddd;
+}
+
+.box_timer_btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn_start, .btn_reset {
+  border: 1px solid #dddddd;
+  width: 70px;
+  outline: none;
+  height: 30px;
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+
+.btn_start {
+  margin-left: 65px;
+}
+
+.btn_reset {
+  margin-right: 65px;
+}
+
+.title {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
